@@ -1,4 +1,5 @@
 # docker-s390x-debian
 
-These are statically linked docker binaries for Linux s390x. They were built on Debian but should also work for RHEL and SLES.
-To install, simply uncompress and copy docker-1.x.x into /usr/local/bin (or whichever directory in your PATH you prefer).
+These are dynamically and statically linked docker binaries for Linux s390x Debian 8. Dynamically linked binary is generally preferred since it supports udev sync. The statically linked binary should also work for other distros such as RHEL and SLES.
+
+To install, simply uncompress and untar the archive in /usr/local/bin (or whichever directory in your PATH you prefer).
